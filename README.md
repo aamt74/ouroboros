@@ -5,17 +5,15 @@ A tool to solve the ouroborosrings puzzle in professor Stewart's cabinet of math
 ## requirements
 
 - modern c++ compiler
-- boost
+- vcpkg
+- ninja
 - cmake
 
 ## build
-
 ```
 $ cd ${PROJ}
-$ mkdir build
-$ cd build
-$ cmake -DCMAKE_BUILD_TYPE=Release ..
-$ make
+$ cmake --preset default
+$ cmake --build --preset default
 ```
 
 ## run
